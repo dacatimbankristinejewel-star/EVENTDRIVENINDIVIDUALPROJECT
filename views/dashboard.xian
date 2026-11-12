@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f7fb">
+  <title>Vanguard Learning | Operations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/lms.css">
+</head>
+<body class="lms-body">
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 19V5m0 14h17"/><path d="m7 15 4-4 3 2 6-7"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5z"/><path d="M4 17.5A2.5 2.5 0 0 1 6.5 15H20M8 7h7"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M20 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8.2 13-1.1 8 4.9-2.7 4.9 2.7-1.1-8"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="14" rx="3"/><path d="m16 10 5-3v10l-5-3z"/></symbol>
+    <symbol id="i-store" viewBox="0 0 24 24"><path d="M3 10h18l-1.4-6H4.4z"/><path d="M5 10v10h14V10M9 20v-6h6v6M3 10a3 3 0 0 0 6 0 3 3 0 0 0 6 0 3 3 0 0 0 6 0"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1a1.7 1.7 0 1 1-2.4 2.4l-.1-.1a1.7 1.7 0 0 0-2.9 1.2v.2a1.7 1.7 0 1 1-3.4 0v-.2a1.7 1.7 0 0 0-2.9-1.2l-.1.1a1.7 1.7 0 1 1-2.4-2.4l.1-.1a1.7 1.7 0 0 0-1.2-2.9H4a1.7 1.7 0 1 1 0-3.4h.2a1.7 1.7 0 0 0 1.2-2.9l-.1-.1a1.7 1.7 0 1 1 2.4-2.4l.1.1a1.7 1.7 0 0 0 2.9-1.2V2a1.7 1.7 0 1 1 3.4 0v.2a1.7 1.7 0 0 0 2.9 1.2l.1-.1a1.7 1.7 0 1 1 2.4 2.4l-.1.1a1.7 1.7 0 0 0 1.2 2.9h.2a1.7 1.7 0 1 1 0 3.4h-.2a1.7 1.7 0 0 0-1.2 2.9z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14m-7-7h14"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7-9 9"/><path d="M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="/dashboard" aria-label="Vanguard Learning home">
+        <span class="brand-mark">V<span>.</span></span>
+        <span class="brand-copy"><strong>vanguard</strong><small>LEARNING SYSTEM</small></span>
+      </a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav class="side-nav" aria-label="Main navigation">
+        <button class="nav-link active" data-page="overview"><svg><use href="#i-grid"/></svg><span>Overview</span></button>
+        <button class="nav-link" data-page="analytics"><svg><use href="#i-chart"/></svg><span>Analytics & reports</span><span class="nav-indicator"></span></button>
+        <button class="nav-link" data-page="courses"><svg><use href="#i-book"/></svg><span>Course catalog</span></button>
+        <button class="nav-link" data-page="learners"><svg><use href="#i-users"/></svg><span>Learners</span></button>
+        <button class="nav-link" data-page="rewards"><svg><use href="#i-award"/></svg><span>Rewards</span></button>
+        <button class="nav-link" data-page="classroom"><svg><use href="#i-video"/></svg><span>Virtual classroom</span><span class="nav-count">2</span></button>
+        <button class="nav-link" data-page="billing"><svg><use href="#i-store"/></svg><span>Billing & commerce</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="help-card">
+          <div class="help-icon">✳</div>
+          <strong>Need a hand?</strong>
+          <p>Explore the quick-start guide to get more from Vanguard.</p>
+          <button type="button" class="text-action" data-toast="Quick-start guide is coming soon.">Open guide <span>↗</span></button>
+        </div>
+        <button class="nav-link settings-link" data-toast="Workspace settings are coming soon."><svg><use href="#i-settings"/></svg><span>Settings</span></button>
+        <div class="profile-row">
+          <div class="avatar avatar-navy">JD</div>
+          <div class="profile-copy"><strong>Jordan Davis</strong><span>Learning manager</span></div>
+          <a class="profile-menu" href="/logout" aria-label="Log out">↗</a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu icon-button" id="menuToggle" aria-label="Open navigation"><svg><use href="#i-menu"/></svg></button>
+        <div class="breadcrumb"><span>Workspace</span><b>/</b><strong id="breadcrumbCurrent">Overview</strong></div>
+        <div class="topbar-right">
+          <label class="global-search"><svg><use href="#i-search"/></svg><input id="globalSearch" type="search" placeholder="Search anything..." aria-label="Search learners"></label>
+          <button class="icon-button notification-button" aria-label="Notifications" data-toast="You're all caught up."><svg><use href="#i-bell"/></svg><i></i></button>
+          <div class="avatar avatar-coral">JD</div>
+        </div>
+      </header>
+
+      <div class="page-content">
+                {{> overview}}
+
+                {{> analytics}}
+
+                {{> catalog}}
+
+                {{> learners}}
+
+                {{> rewards}}
+
+                {{> classroom}}
+
+                {{> billing}}
+
+        <footer class="app-footer"><span>© 2026 Vanguard Learning</span><span><span class="live-dot"></span> All systems operational</span></footer>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="modal-backdrop" id="receiptModal" aria-hidden="true"><div class="receipt-modal" role="dialog" aria-modal="true" aria-labelledby="receiptTitle"><button class="modal-close" id="closeReceipt" aria-label="Close">×</button><div class="receipt-logo">V.</div><p class="eyebrow">PAYMENT RECEIPT · DEMO</p><h2 id="receiptTitle">Vanguard Learning</h2><div class="receipt-divider"></div><div class="receipt-line"><span>Receipt number</span><strong id="receiptNumber">VG-2026-0386</strong></div><div class="receipt-line"><span>Payment status</span><strong class="status-text status-green">Paid</strong></div><div class="receipt-line"><span>Issued</span><strong>November 4, 2026</strong></div><p class="receipt-disclaimer">Demo receipt preview. Official receipts are generated from confirmed payment-provider transactions.</p><button class="button button-primary full-button" id="printReceipt">Print receipt</button></div></div>
+  <script src="/lms.js" defer></script>
+</body>
+</html>

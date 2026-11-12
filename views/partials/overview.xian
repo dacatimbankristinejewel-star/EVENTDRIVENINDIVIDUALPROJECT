@@ -1,0 +1,47 @@
+<section class="page-section is-active" id="page-overview">
+          <div class="welcome-row">
+            <div><p class="eyebrow">THURSDAY, NOVEMBER 5, 2026 <span class="live-dot"></span> LIVE OVERVIEW</p><h1>Good morning, Jewel <span class="wave">✳</span></h1><p class="subtitle">Here's what's happening across your learning programs.</p></div>
+            <div class="welcome-actions"><button class="button button-outline" id="overviewExport"><svg><use href="#i-download"/></svg> Export report</button><button class="button button-primary" data-page="courses"><svg><use href="#i-plus"/></svg> Create a course</button></div>
+          </div>
+
+          <div class="stat-grid">
+            <article class="stat-card"><div class="stat-top"><span>Active learners</span><span class="stat-icon icon-lilac"><svg><use href="#i-users"/></svg></span></div><div class="stat-value">2,486</div><div class="stat-foot"><span class="trend-up">↗ 12.8%</span><span>vs. last month</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></article>
+            <article class="stat-card"><div class="stat-top"><span>Course completion</span><span class="stat-icon icon-mint"><svg><use href="#i-check"/></svg></span></div><div class="stat-value">78.4<span class="unit">%</span></div><div class="stat-foot"><span class="trend-up">↗ 6.2%</span><span>vs. last month</span><div class="mini-bars mint-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></article>
+            <article class="stat-card"><div class="stat-top"><span>Learning hours</span><span class="stat-icon icon-peach"><svg><use href="#i-clock"/></svg></span></div><div class="stat-value">8,942<span class="unit">h</span></div><div class="stat-foot"><span class="trend-up">↗ 9.1%</span><span>vs. last month</span><div class="mini-bars peach-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></article>
+            <article class="stat-card"><div class="stat-top"><span>Compliance rate</span><span class="stat-icon icon-sky"><svg><use href="#i-award"/></svg></span></div><div class="stat-value">94.2<span class="unit">%</span></div><div class="stat-foot"><span class="trend-warn">↘ 1.4%</span><span>3 courses expiring soon</span><div class="mini-bars sky-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></article>
+          </div>
+
+          <div class="content-grid dashboard-grid">
+            <article class="panel activity-panel">
+              <div class="panel-heading"><div><h2>Learning activity</h2><p>Learning engagement over time</p></div><select class="select-control" id="activityPeriod" aria-label="Activity period"><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select></div>
+              <div class="chart-summary"><strong id="hoursTotal">1,248 <small>hrs</small></strong><span class="trend-up">↗ 8.6% <small>vs. previous period</small></span></div>
+              <div class="activity-chart" role="img" aria-label="Learning activity trend chart">
+                <div class="chart-y-labels"><span>400</span><span>300</span><span>200</span><span>100</span><span>0</span></div>
+                <div class="chart-plot"><div class="chart-gridlines"><i></i><i></i><i></i><i></i><i></i></div><svg viewBox="0 0 700 210" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#6b5ce7" stop-opacity=".2"/><stop offset="1" stop-color="#6b5ce7" stop-opacity="0"/></linearGradient></defs><path class="chart-area" d="M0 164 C35 154 44 131 80 141 S130 166 160 131 S210 112 240 126 S285 112 320 91 S370 114 400 96 S450 66 480 83 S525 103 560 59 S615 73 640 43 S680 55 700 24 V210 H0Z"/><path class="chart-line" d="M0 164 C35 154 44 131 80 141 S130 166 160 131 S210 112 240 126 S285 112 320 91 S370 114 400 96 S450 66 480 83 S525 103 560 59 S615 73 640 43 S680 55 700 24"/><circle cx="560" cy="59" r="5"/></svg><div class="chart-x-labels"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div></div>
+              </div>
+              <div class="chart-legend"><span><i class="legend-purple"></i>Learning hours</span><span><i class="legend-gray"></i>Course completions</span></div>
+            </article>
+            <article class="panel compliance-panel">
+              <div class="panel-heading"><div><h2>Compliance snapshot</h2><p>Required training status</p></div><button class="more-button" data-page="analytics">View report <svg><use href="#i-arrow"/></svg></button></div>
+              <div class="compliance-ring-wrap"><div class="compliance-ring"><div><strong>94<span>%</span></strong><small>COMPLIANT</small></div></div><div class="ring-caption"><span><i class="dot dot-green"></i>Completed <b>2,342</b></span><span><i class="dot dot-amber"></i>In progress <b>108</b></span><span><i class="dot dot-red"></i>Overdue <b>36</b></span></div></div>
+              <div class="compliance-alert"><span class="alert-mark">!</span><p><strong>36 learners</strong> are overdue for required training.</p><button class="small-link" data-page="analytics">Review</button></div>
+            </article>
+          </div>
+
+          <div class="content-grid lower-grid">
+            <article class="panel courses-panel">
+              <div class="panel-heading"><div><h2>Top performing courses</h2><p>By completion rate this month</p></div><button class="more-button" data-page="courses">All courses <svg><use href="#i-arrow"/></svg></button></div>
+              <div class="course-performance">
+                <div class="course-row"><div class="course-thumb thumb-indigo">✦</div><div class="course-name"><strong>Workplace Safety Essentials</strong><span>Safety & compliance · 428 learners</span></div><div class="progress-track"><i style="width:92%"></i></div><strong class="course-percent">92%</strong></div>
+                <div class="course-row"><div class="course-thumb thumb-green">↗</div><div class="course-name"><strong>Data Privacy & Protection</strong><span>Policy training · 392 learners</span></div><div class="progress-track green-track"><i style="width:86%"></i></div><strong class="course-percent">86%</strong></div>
+                <div class="course-row"><div class="course-thumb thumb-orange">✷</div><div class="course-name"><strong>Leadership Foundations</strong><span>Professional growth · 214 learners</span></div><div class="progress-track orange-track"><i style="width:78%"></i></div><strong class="course-percent">78%</strong></div>
+              </div>
+            </article>
+            <article class="panel upcoming-panel">
+              <div class="panel-heading"><div><h2>Coming up</h2><p>Live sessions & key dates</p></div><button class="more-button" data-page="classroom">View calendar <svg><use href="#i-arrow"/></svg></button></div>
+              <div class="event-row"><div class="date-tile"><b>06</b><span>NOV</span></div><div class="event-details"><strong>Leading through change</strong><span>10:00 AM · Maya Chen</span></div><span class="event-live">LIVE</span></div>
+              <div class="event-row"><div class="date-tile"><b>08</b><span>NOV</span></div><div class="event-details"><strong>Workplace safety Q&A</strong><span>2:30 PM · Chris Walker</span></div><span class="event-platform">Meet</span></div>
+              <div class="event-row"><div class="date-tile date-muted"><b>12</b><span>NOV</span></div><div class="event-details"><strong>Data privacy refresher</strong><span>All day · Required training</span></div><span class="event-platform">Course</span></div>
+            </article>
+          </div>
+        </section>

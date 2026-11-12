@@ -1,0 +1,12 @@
+{{> head }}
+<body class="bg-gray-50">
+  <main class="container mx-auto max-w-3xl px-4 py-16 text-center">
+    <p class="text-sm font-semibold uppercase tracking-widest text-blue-700">Vanguard Learning</p>
+    <h1 class="mt-4 text-4xl font-bold text-gray-900">Learning that moves you forward.</h1>
+    <p class="mx-auto mt-4 max-w-xl text-gray-600">Explore courses, build practical skills, and keep your learning journey on track.</p>
+    <div class="mt-8 flex justify-center gap-3">
+      <a class="rounded bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700" href="/register">Get started</a>
+      <a class="rounded border border-gray-300 px-5 py-3 font-semibold text-gray-700 hover:bg-gray-100" href="/login">Sign in</a>
+    </div>
+  </main>
+{{> footer }}
